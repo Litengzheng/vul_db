@@ -21,12 +21,13 @@ When the value of `page` is `login`, the function sub_401340 will be called.
 
 <div  align="center"><img src="./img/ftext.png" style="zoom:80%;" /></div>
 
-This function defines a variable hostname, retrieves its value from the request  packet, uses the sprintf function to concatenate it into v34, and finally passes the result to sub_404F68 for processing.
+This function defines a variable hostname, retrieves its value from the request  packet, uses the sprintf function to concatenate it into v34, and finally passes the result to sub_401F80 for processing.
 
 <div  align="center"><img src="./img/getpar.png" style="zoom:80%;" /></div>
-<div  align="center"><img src="./img/1.png" style="zoom:80%;" /></div>
+<div  align="center"><img src="./img/sprintf.png" style="zoom:80%;" /></div>
 
-However，the sub_404F68 function creates a response packet and places the unfiltered value of the hostname into the packet.
+However，the sub_401F80 function creates a response packet and places the unfiltered value of the hostname into the packet.
+<div  align="center"><img src="./img/output.png" style="zoom:80%;" /></div>
 
 ## Proof of Concept (PoC)
 
@@ -51,4 +52,5 @@ newUI=1&page=login&username=admin&langChange=0&ipaddr=%3A%3Affff%3A192.168.6.1&l
 ```
 
 ## outcome
-<div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div><img width="516" height="275" alt="image" src="https://github.com/user-attachments/assets/2c64cd77-cdfc-47c3-b548-e05241a20964" />
+<div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
