@@ -52,4 +52,5 @@ newUI=1&page=login&username=admin&langChange=0&ipaddr=192.168.6.1&login_page=log
 
 ## outcome
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
-<img width="475" height="240" alt="image" src="https://github.com/user-attachments/assets/30a8335c-7f37-452f-afa2-3e30ec6ceb26" />
+
+
