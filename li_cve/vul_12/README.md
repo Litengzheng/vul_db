@@ -13,7 +13,7 @@ Type:Remote Stack Overflow
 
 ## Descriptions
 
-We found an Command Injection vulnerability  in `firewall.cgi` , allows remote attackers to execute arbitrary OS commands from a crafted request:
+We found an `overflow` vulnerability  in `firewall.cgi` that could be triggered by an attacker through carefully crafted packet requests:
 
 In  ftext function,the router compare the `firewall` parameter.
 
@@ -50,4 +50,5 @@ firewall=singlePortForwardDelete&del_flag=11111111111111111111111111111111111111
 
 ## After
 <div  align="center"><img src="./img/after.png" style="zoom:80%;" /></div>
+
 
