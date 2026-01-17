@@ -1,4 +1,4 @@
-# WL-NU516U1 Vulnerability
+# WL-WN578W2 Vulnerability
 
 Vendor:WavLink
 
@@ -53,3 +53,4 @@ newUI=1&page=login&username=admin&langChange=0&ipaddr=%3A%3Affff%3A192.168.6.1&l
 
 ## outcome
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
