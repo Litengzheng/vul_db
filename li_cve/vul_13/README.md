@@ -17,7 +17,7 @@ We found a XSS vulnerability  in `adm.cgi` that could be triggered by an attacke
 
 In  ftext function,the router compare the `page` parameter.
 
-When the value of `firewall` is `sysinit`, the function sub_401AD4 will be called.
+When the value of `page` is `sysinit`, the function sub_401AD4 will be called.
 
 <div  align="center"><img src="./img/ftext.png" style="zoom:80%;" /></div>
 
@@ -52,6 +52,7 @@ page=sysinit&langChange=0&wl_reddomain=WO&time_zone=UTC-08%3A00&newpass=admin1&s
 ```
 ## outcome
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
 
