@@ -6,7 +6,7 @@ Product: WL-WN579X3-C
 
 Vulnerability: Stack Overflow
 
-Type:Remote Stack Overflow
+Type:Stack Overflow
 
 
 
@@ -50,5 +50,6 @@ firewall=singlePortForwardDelete&del_flag=11111111111111111111111111111111111111
 
 ## After
 <div  align="center"><img src="./img/after.png" style="zoom:80%;" /></div>
+
 
 
