@@ -21,7 +21,7 @@ When the value of `page` is `login`, the function sub_401340 will be called.
 
 <div  align="center"><img src="./img/ftext.png" style="zoom:80%;" /></div>
 
-This function defines a variable hostname, retrieves its value from the request  packet, uses the sprintf function to concatenate it into v34, and finally passes the result to sub_401F80 for processing.
+This function defines a variable hostname, retrieves its value from the request  packet, uses the sprintf function to concatenate it into v37, and finally passes the result to sub_401F80 for processing.
 
 <div  align="center"><img src="./img/getpar.png" style="zoom:80%;" /></div>
 <div  align="center"><img src="./img/sprintf.png" style="zoom:80%;" /></div>
@@ -53,4 +53,5 @@ newUI=1&page=login&username=admin&langChange=0&ipaddr=%3A%3Affff%3A192.168.6.1&l
 
 ## outcome
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
