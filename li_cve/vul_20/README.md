@@ -23,8 +23,8 @@ When the value of `page` is `login`, the function sub_400E60 will be called.
 
 This function defines a variable hostname, retrieves its value from the request  packet, uses the sprintf function to concatenate it into v58, and finally passes the result to sub_403818 for processing.
 
-<div  align="center"><img src="./img/getpar.png" style="zoom:80%;" /></div>
-<div  align="center"><img src="./img/1.png" style="zoom:80%;" /></div>
+<div  align="center"><img src="./img/getvar.png" style="zoom:80%;" /></div>
+<div  align="center"><img src="./img/sprintf.png" style="zoom:80%;" /></div>
 
 However，the sub_403818 function creates a response packet and places the unfiltered value of the hostname into the packet.
 
@@ -52,3 +52,4 @@ newUI=1&page=login&username=admin&langChange=0&ipaddr=%3A%3Affff%3A192.168.6.1&l
 
 ## outcome
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
