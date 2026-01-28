@@ -52,7 +52,8 @@ newUI=1&page=login&username=admin&langChange=0&ipaddr=%3A%3Affff%3A192.168.6.1&l
 ```
 
 ## outcome
-<div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+<div  align="center"><img src="./img/poc1.png" style="zoom:80%;" /></div>
+
 
 
 
