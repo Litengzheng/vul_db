@@ -18,7 +18,7 @@ When the value of `wanmode` is `4`, the value of the `l2tpPPW` will be stored in
 
 <div  align="center"><img src="./img/function.png" style="zoom:80%;" /></div>
 
-Finally,the function uses decodePwd() to handle v6,that causes  buffer overflow.
+Finally,the function uses decodePwd() to handle v6 and  s_ ,that causes  buffer overflow.
 
 <div  align="center"><img src="./img/decodePwd.png" style="zoom:80%;" /></div>
 
@@ -42,3 +42,4 @@ wanmode=4&l2tpPPW=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 ## Overcome
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
