@@ -12,7 +12,7 @@ We found overflow vulnerability  in `httpd` :
 
 In  formqossetting function,it reads in a user-provided parameter `qos`,
 
-and the variable src is passed to the sprintf function without any length check, which may overflow the stack-based buffer `_1_`. 
+and the variable src is passed to the strcpy function without any length check, which may overflow the stack-based buffer `_1_`. 
 
 <div  align="center"><img src="./img/function.png" style="zoom:80%;" /></div>
 
@@ -40,3 +40,4 @@ qos=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
