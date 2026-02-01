@@ -10,7 +10,7 @@ Vulnerability: buffer overflow
 
 ## Descriptions
 
-We found overflow vulnerability  in `httpd` :
+We found an overflow vulnerability  in `httpd` :
 
 In  fromSafeUrlFilter function,the router compare the `menufacturer` parameter.
 
@@ -40,3 +40,4 @@ menufacturer=tenda&Go=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 ## Overcome
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
