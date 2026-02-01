@@ -10,7 +10,7 @@ Vulnerability: buffer overflow
 
 We found overflow vulnerability  in `httpd` :
 
-In  formSafeMacFilter function,it reads in a user-provided parameter `menufacturer` and `Go`.
+In  fromSafeMacFilter function,it reads in a user-provided parameter `menufacturer` and `Go`.
 
 If the value of menufacturer is `tenda`,the variable src will be passed to the strcat  function without any length check, which may overflow the stack-based buffer dest_. 
 
@@ -39,3 +39,4 @@ menufacturer=tenda&Go=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
