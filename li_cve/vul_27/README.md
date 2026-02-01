@@ -10,7 +10,7 @@ Vulnerability: buffer overflow
 
 ## Descriptions
 
-We found overflow vulnerability  in `httpd` :
+We found an overflow vulnerability  in `httpd` :
 
 In  fromAddressNat function,it reads in a user-provided parameter `mitInterface`.
 
@@ -41,3 +41,4 @@ mitInterface=1111111111111111111111111111111111111111111111111111111111111111111
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
