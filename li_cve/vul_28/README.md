@@ -8,7 +8,7 @@ Vulnerability: buffer overflow
 
 ## Descriptions
 
-We found overflow vulnerability  in `httpd` :
+We found an overflow vulnerability  in `httpd` :
 
 In  frmL7ProtForm  function,it reads in a user-provided parameter `page`,
 
@@ -39,3 +39,4 @@ page=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
