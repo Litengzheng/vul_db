@@ -8,9 +8,9 @@ Vulnerability: buffer overflow
 
 ## Descriptions
 
-We found overflow vulnerability  in `httpd` :
+We found an overflow vulnerability  in `httpd` :
 
-In  formAddressNat function,it reads in a user-provided parameter `entrys`,
+In  fromAddressNat function,it reads in a user-provided parameter `entrys`,
 
 and the variable Var is passed to the sprintf function without any length check, which may overflow the stack-based buffer s_. 
 
@@ -39,3 +39,4 @@ entrys=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
