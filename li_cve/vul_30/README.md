@@ -8,9 +8,9 @@ Vulnerability: buffer overflow
 
 ## Descriptions
 
-We found overflow vulnerability  in `httpd` :
+We found an overflow vulnerability  in `httpd` :
 
-In  formqossetting function,it reads in a user-provided parameter `page`,
+In  fromqossetting function,it reads in a user-provided parameter `page`,
 
 and the variable v4 is passed to the sprintf function without any length check, which may overflow the stack-based buffer s_. 
 
@@ -40,3 +40,4 @@ page=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
