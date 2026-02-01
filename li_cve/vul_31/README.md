@@ -8,9 +8,9 @@ Vulnerability: buffer overflow
 
 ## Descriptions
 
-We found overflow vulnerability  in `httpd` :
+We found an overflow vulnerability  in `httpd` :
 
-In  formqossetting function,it reads in a user-provided parameter `qos`,
+In  fromqossetting function,it reads in a user-provided parameter `qos`,
 
 and the variable src is passed to the strcpy function without any length check, which may overflow the stack-based buffer `_1_`. 
 
@@ -40,4 +40,5 @@ qos=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
