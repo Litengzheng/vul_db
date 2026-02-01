@@ -10,7 +10,7 @@ Vulnerability: buffer overflow
 
 ## Descriptions
 
-We found overflow vulnerability  in `httpd` :
+We found an overflow vulnerability  in `httpd` :
 
 In  fromAdvSetWan function,the router compare the `wanmode` parameter.
 
@@ -42,4 +42,5 @@ wanmode=4&l2tpPPW=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 ## Overcome
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
