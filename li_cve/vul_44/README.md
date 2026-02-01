@@ -12,7 +12,7 @@ We found an overflow vulnerability  in `httpd` :
 
 In  formwrlSSIDset function,it reads in a user-provided parameter `wl_radio`and `index`.
 
-If wl_radio and the variable Var is passed to the vos_strcpy function without any length check, which may overflow the stack-based buffer s. 
+If the value of wl_radio is not 0, the variable v22 will be passed to the sprintf function without any length check, which may overflow the stack-based buffer s__2. 
 
 <div  align="center"><img src="./img/function.png" style="zoom:80%;" /></div>
 
@@ -42,3 +42,4 @@ wl_radio=1&index=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
