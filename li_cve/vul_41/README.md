@@ -10,7 +10,7 @@ Vulnerability: buffer overflow
 
 We found overflow vulnerability  in `httpd` :
 
-In  SafeClientFilter function,it reads in a user-provided parameter `page`,
+In  fromSafeClientFilter function,it reads in a user-provided parameter `page`,
 
 and the variable v10 is passed to the sprintf function without any length check, which may overflow the stack-based buffer dest_. 
 
@@ -40,3 +40,4 @@ page=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
