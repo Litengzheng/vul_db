@@ -12,7 +12,7 @@ We found an overflow vulnerability  in `httpd` :
 
 In  formQuickIndex function,it reads in a user-provided parameter `mit_linktype` and `PPPOEPassword`.
 
-If the value of mit_linktype is 2, the variable v8 is passed to the sub_3B698 function without any length check, which may overflow the stack-based buffer s. 
+If the value of mit_linktype is 2, the variable v10 is passed to the sub_3C434 function without any length check, which may overflow the stack-based buffer s. 
 
 <div  align="center"><img src="./img/function1.png" style="zoom:80%;" /></div>
 
@@ -43,3 +43,4 @@ mit_linktype=2&PPPOEPassword=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
