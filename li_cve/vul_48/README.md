@@ -10,7 +10,7 @@ Vulnerability: buffer overflow
 
 We found an overflow vulnerability  in `httpd` :
 
-In  fromAdvSetWan function,it reads in a user-provided parameter `funcname` and `funcpara1`.
+In  fromSetCfm function,it reads in a user-provided parameter `funcname` and `funcpara1`.
 
 If the value of funcpara1 is save_list_data, the variable v14 will be passed to the sub_39798 function without any length check .
 
@@ -45,4 +45,5 @@ funcname=save_list_data&funcpara1=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
