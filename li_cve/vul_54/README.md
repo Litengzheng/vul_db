@@ -12,7 +12,7 @@ We found overflow vulnerability  in `httpd` :
 
 In  fromSafeUrlFilter function,it reads in a user-provided parameter `menufacturer` and `Go`.
 
-If the value of menufacturer is `tenda`,the variable p_s will be passed to the strcat  function without any length check, which may overflow the stack-based buffer s. 
+If the value of menufacturer is `tenda`,the variable p_s will be passed to the strcpy  function without any length check, which may overflow the stack-based buffer s. 
 
 <div  align="center"><img src="./img/function.png" style="zoom:80%;" /></div>
 
@@ -40,3 +40,4 @@ menufacturer=tenda&Go=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
