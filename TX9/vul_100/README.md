@@ -12,13 +12,13 @@ We found an overflow vulnerability  in `httpd` :
 
 <div  align="center"><img src="./img/tenda.png" style="zoom:80%;" /></div>
 
-In  sub_43CDE4 function,it reads in a user-provided parameter `list`.
+In  sub_43D0DC function,it calls function  sub_43CDE4.
 
 <div  align="center"><img src="./img/goform.png" style="zoom:80%;" /></div>
 
 <div  align="center"><img src="./img/sub_43D0DC.png" style="zoom:80%;" /></div>
 
-And  the variable `v3` will be passed to the sscanf function without any length check, which may overflow the stack-based buffer. 
+In  sub_43CDE4 function,it reads in a user-provided parameter `list`, and  the variable `v3` will be passed to the sscanf function without any length check, which may overflow the stack-based buffer. 
 
 <div  align="center"><img src="./img/function.png" style="zoom:80%;" /></div>
 
@@ -46,5 +46,6 @@ list=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
