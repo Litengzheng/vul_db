@@ -2,11 +2,15 @@
 
 Vendor:Tenda
 
-Product:CH22 V1.0.0.1
+Product:CH22 
 
-Vulnerability: Command Injection
+Version: V1.0.0.1 
 
-Type:Remote Command Execution
+Vulnerability: buffer overflow
+
+Firmware Download:https://www.tenda.com.cn/material/show/1367
+
+Author:Li Tengzheng
 
 
 
@@ -45,5 +49,6 @@ mac=;echo hahahahahahahahaha;
 ```
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
