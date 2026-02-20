@@ -2,9 +2,15 @@
 
 Vendor:Tenda
 
-Product:CH22 1.0.0.1 
+Product:CH22 
+
+Version: V1.0.0.1 
 
 Vulnerability: buffer overflow
+
+Firmware Download:https://www.tenda.com.cn/material/show/1367
+
+Author:Li Tengzheng
 
 ## Descriptions
 
@@ -45,5 +51,6 @@ funcname=save_list_data&funcpara1=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
