@@ -6,6 +6,12 @@ Product:i12 V1.0.0.6(2204)
 
 Vulnerability: buffer overflow
 
+Version: V1.0.0.3
+
+Firmware Download:https://www.tenda.com.cn/material/show/2483
+
+Author:Li Tengzheng
+
 ## Descriptions
 
 We found an overflow vulnerability  in `httpd` :
@@ -42,3 +48,4 @@ cmdinput=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
