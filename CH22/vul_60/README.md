@@ -6,7 +6,7 @@ Product:CH22
 
 Version: V1.0.0.1 
 
-Vulnerability: buffer overflow
+Vulnerability: Command Injection
 
 Firmware Download:https://www.tenda.com.cn/material/show/1367
 
@@ -49,6 +49,7 @@ mac=;echo hahahahahahahahaha;
 ```
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
 
