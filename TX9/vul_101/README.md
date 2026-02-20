@@ -1,10 +1,16 @@
-# TX9  Vulnerability
+# TX9 Vulnerability
 
 Vendor:Tenda
 
-Product:TX9 V22.03.02.54 (https://www.tendacn.com/material/show/104938)
+Product:TX9  
+
+Version: V22.03.02.54
 
 Vulnerability: buffer overflow
+
+Firmware Download: https://www.tendacn.com/material/show/104938
+
+Author:Li Tengzheng
 
 ## Descriptions
 
@@ -46,6 +52,7 @@ list=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
 
