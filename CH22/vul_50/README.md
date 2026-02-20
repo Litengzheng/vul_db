@@ -10,7 +10,7 @@ Vulnerability: buffer overflow
 
 We found an overflow vulnerability  in `httpd` :
 
-In  formCreateFileName function,it reads in a user-provided parameter `page`,
+In  formCreateFileName function,it reads in a user-provided parameter `fileNameMit`,
 
 and the variable s is passed to the printf function without any length check, which may overflow the stack-based buffer. 
 
@@ -41,4 +41,5 @@ fileNameMit=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
