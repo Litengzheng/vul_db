@@ -4,11 +4,13 @@ Vendor:WavLink
 
 Product: WL-WN579X3-C
 
+Version：V231124
+
 Vulnerability: Stack Overflow
 
-Type:Stack Overflow
+Download：https://docs.wavlink.xyz/Firmware_ch/?category=%E5%AE%A4%E5%86%85%E4%B8%AD%E7%BB%A7%E5%99%A8&model=WL-WN579X3-C
 
-
+Author：Li Tengzheng
 
 
 ## Descriptions
@@ -50,6 +52,7 @@ firewall=singlePortForwardDelete&del_flag=11111111111111111111111111111111111111
 
 ## After
 <div  align="center"><img src="./img/after.png" style="zoom:80%;" /></div>
+
 
 
 
