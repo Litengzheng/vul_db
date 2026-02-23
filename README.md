@@ -4,7 +4,7 @@ WL-WN579A3  vul_9~vul_10
 
 WL-WN579X3-C  vul_17~vul_18
 
-Tenda i12(1.0.0.6)  vul_43~vul_45
+Tenda i12(1.0.0.6)  vul_42~vul_44
 
 Tenda CH22  vul_46~vul_60
 
