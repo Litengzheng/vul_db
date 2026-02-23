@@ -1,10 +1,12 @@
-WL-WN578W2  vul_1~vul_8
+Wavlink WL-WN578W2  vul_1~vul_8
 
-WL-WN579A3  vul_9~vul_10
+Wavlink WL-WN579A3  vul_9~vul_10
 
-WL-WN579X3-C  vul_17~vul_18
+Wavlink WL-WN579X3-C  vul_17~vul_18
 
 Tenda i12(1.0.0.6)  vul_42~vul_44
+
+Tenda FH1201  vul_45
 
 Tenda CH22  vul_46~vul_60
 
