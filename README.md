@@ -17,3 +17,5 @@ Tenda F453  vul_64~vul_99
 Tenda TX9  vul_100~vul_102
 
 Tenda i12(1.0.0.11)  vul_103~vul_112
+
+Tenda F456  vul_113~vul_149
