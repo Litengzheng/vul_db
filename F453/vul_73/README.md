@@ -1,5 +1,7 @@
 # F453 Vulnerability
 
+CVE Number：CVE-2026-3273
+
 Vendor:Tenda
 
 Product:F453 
@@ -51,4 +53,5 @@ mit_ssid_index=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
