@@ -22,7 +22,12 @@ In  formWrlExtraSet  function,it reads in a user-provided parameter `GO`,
 
 And the variable `v51` is passed to the sub_3A7D8 function without any length check, which may overflow the stack-based buffer `s_` by sprintf function. 
 
-<div  align="center"><img src="./img/function.png" style="zoom:80%;" /></div>
+<div  align="center"><img src="./img/function1.png" style="zoom:80%;" /></div>
+
+<div  align="center"><img src="./img/function2.png" style="zoom:80%;" /></div>
+
+
+<div  align="center"><img src="./img/sub.png" style="zoom:80%;" /></div>
 
 As a result, by requesting the page, an attacker can easily execute a denial of service attack or remote code execution.
 
@@ -49,4 +54,5 @@ GO=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
