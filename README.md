@@ -25,11 +25,17 @@ vul_9 :
 
 vul_10 :
 
+### Wavlink WL-WN516U 
+
+
+
 ### Wavlink WL-WN579X3-C  
 
 vul_17 :
 
 vul_18 :
+
+### Belkin F9K1121
 
 ### Tenda i12(1.0.0.6)  
 
