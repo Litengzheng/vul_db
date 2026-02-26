@@ -105,17 +105,17 @@ vul_68  :  CVE-2026-3169
 
 vul_69
 
-vul_70
+vul_70  :  CVE-2026-3271
 
-vul_71
+vul_71  :  CVE-2026-3272
 
 vul_72
 
-vul_73
+vul_73  :  CVE-2026-3273
 
-vul_74
+vul_74  :  CVE-2026-3274
 
-vul_75
+vul_75  :  CVE-2026-3275
 
 vul_76
 
