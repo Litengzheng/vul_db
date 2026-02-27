@@ -81,6 +81,10 @@ vul_60 :
 
 ### Tenda FH451  
 
+vul_41
+
+vul_42
+
 vul_61
 
 vul_62
@@ -161,8 +165,6 @@ vul_98
 
 vul_99
    
-
-
 
 ### Tenda TX9 
 
