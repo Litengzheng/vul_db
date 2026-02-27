@@ -35,19 +35,15 @@ vul_17 :
 
 vul_18 :
 
-### Belkin F9K1121
 
 ### Totolink A3300R
 
-### Tenda i12(1.0.0.6)  
 
-vul_42 :
+### Tenda FH1201 
 
 vul_43 :
 
 vul_44 :
-
-### Tenda FH1201 
 
 vul_45 :
 
