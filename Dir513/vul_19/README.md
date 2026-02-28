@@ -22,7 +22,7 @@ We use qemu-mips to simulate the dir513 firmware.
 
 We found overflow vulnerability  in `boa` :
 
-In  formSetEnableWizard function,it reads in a user-provided parameter `curtime`.
+In  formSetEnableWizard function,it reads in a user-provided parameter `curTime`.
 
 <div  align="center"><img src="./img/goform.png" style="zoom:80%;" /></div>
 
@@ -53,5 +53,6 @@ curTime=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 ## Overcome
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
