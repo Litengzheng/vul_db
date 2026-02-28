@@ -1,6 +1,6 @@
 # F453 Vulnerability
 
-CVE-Number:CVE-2026-3380 
+CVE Number:CVE-2026-3380 
 
 Vendor:Tenda
 
@@ -53,6 +53,7 @@ page=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
 
