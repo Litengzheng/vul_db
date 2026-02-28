@@ -68,6 +68,14 @@ vul_31 :
 
 vul_32 :
 
+### Belkin F9K1122 
+
+vul_40 :
+
+vul_41 :
+
+vul_42 :
+
 
 ### Tenda FH1201 
 
