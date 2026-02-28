@@ -36,7 +36,7 @@ vul_17 :
 vul_18 :
 
 
-### Totolink A3300R
+### D-link Dir 513
 
 
 ### Tenda FH1201 
