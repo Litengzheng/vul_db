@@ -27,7 +27,9 @@ vul_10 :
 
 ### Wavlink WL-NU516U1 
 
+vul_14 :
 
+vul_15 :
 
 ### Wavlink WL-WN579X3-C  
 
