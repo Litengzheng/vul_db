@@ -38,6 +38,34 @@ vul_18 :
 
 ### D-link Dir 513
 
+vul_19 :
+
+vul_20 :
+
+vul_21 :
+
+vul_22 :
+
+vul_23 :
+
+vul_24 :
+
+vul_25 :
+
+vul_26 :
+
+vul_27 :
+
+vul_28 :
+
+vul_29 :
+
+vul_30 :
+
+vul_31 :
+
+vul_32 :
+
 
 ### Tenda FH1201 
 
@@ -117,17 +145,17 @@ vul_74  :  CVE-2026-3274
 
 vul_75  :  CVE-2026-3275
 
-vul_76
+vul_76  :  CVE-2026-3376
 
-vul_77
+vul_77  :  CVE-2026-3377
 
-vul_78
+vul_78  :  CVE-2026-3378
 
-vul_79
+vul_79  :  CVE-2026-3379
 
 vul_80
 
-vul_81
+vul_81  :  CVE-2026-3380
 
 vul_82
 
