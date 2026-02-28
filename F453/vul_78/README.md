@@ -1,6 +1,6 @@
 # F453 Vulnerability
 
-CVE-Number：CVE-2026-3378
+CVE Number：CVE-2026-3378
 
 Vendor:Tenda
 
@@ -53,4 +53,5 @@ qos=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
