@@ -4,9 +4,9 @@ Vendor:WavLink
 
 Product: WL-NU516U1
 
-Vulnerability: XSS
+Version:V240425
 
-Type:XSS Attack
+Vulnerability: XSS
 
 Download：https://docs.wavlink.xyz/Firmware_ch/?category=USB%E6%89%93%E5%8D%B0%E6%9C%BA%E6%9C%8D%E5%8A%A1%E5%99%A8&model=WL-NU516U1-A
 
@@ -54,6 +54,7 @@ newUI=1&page=login&username=admin&langChange=0&ipaddr=192.168.6.1&login_page=log
 
 ## outcome
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
 
