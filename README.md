@@ -9,15 +9,15 @@ vul_2   :  CVE-2026-
 
 vul_3   :  CVE-2026-
 
-vul_4 :
+vul_4   :  CVE-
 
-vul_5 :
+vul_5   :  CVE-
 
-vul_6 :
+vul_6   :  CVE
 
-vul_7 :
+vul_7   :  CVE
 
-vul_8 :
+vul_8   :  CVE
 
 ### Wavlink WL-WN579A3 
 
@@ -40,19 +40,19 @@ vul_18 :  CVE-2026-
 
 ### D-link Dir 513
 
-vul_19 :  CVE-2026-
+vul_19  :  CVE-2026-
 
-vul_20 :  CVE-2026-
+vul_20  :  CVE-2026-
 
-vul_21 :  CVE-2026-
+vul_21  :  CVE-2026-
 
-vul_22 :  CVE-2026-
+vul_22  :  CVE-2026-
 
-vul_23 :
+vul_23  :  CVE
 
-vul_24 :
+vul_24  :  CVE
 
-vul_25 :
+vul_25  :  CVE
 
 vul_26 :
 
@@ -167,7 +167,7 @@ vul_83  :  CVE-2026-3399
 
 vul_84
 
-vul_85
+vul_85  :  CVE-2026-
 
 vul_86
 
@@ -185,17 +185,17 @@ vul_92
 
 vul_93
 
-vul_94
+vul_94  :  CVE-2026-
 
 vul_95
 
-vul_96
+vul_96  :  CVE-2026-
 
-vul_97
+vul_97  :  CVE-2026-
 
-vul_98
+vul_98  :  CVE-2026-
 
-vul_99
+vul_99  :  CVE-2026-
    
 
 ### Tenda TX9 
@@ -308,11 +308,11 @@ vul_149
 
 vul_150  :  CVE-2026-
 
-vul_151 :
+vul_151  :  CVE
 
 vul_152  :  CVE-2026-
 
-vul_154 :
+vul_154  :  CVE
 
 vul_155 :
 
