@@ -306,11 +306,11 @@ vul_149
 
 ### Belkin F9K1122 
 
-vul_150 :
+vul_150  :  CVE-2026-
 
 vul_151 :
 
-vul_152 :
+vul_152  :  CVE-2026-
 
 vul_154 :
 
