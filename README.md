@@ -3,11 +3,11 @@
 
 ### Wavlink WL-WN578W2  
 
-vul_1 :   CVE-2026-
+vul_1   :  CVE-2026-
 
-vul_2 :   CVE-2026-
+vul_2   :  CVE-2026-
 
-vul_3 :   CVE-2026-
+vul_3   :  CVE-2026-
 
 vul_4 :
 
@@ -21,9 +21,9 @@ vul_8 :
 
 ### Wavlink WL-WN579A3 
 
-vul_9 :   CVE-2026-
+vul_9   :  CVE-2026-
 
-vul_10 :  CVE-2026-
+vul_10  :  CVE-2026-
 
 ### Wavlink WL-NU516U1 
 
