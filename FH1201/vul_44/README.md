@@ -16,11 +16,11 @@ Author:Li Tengzheng
 
 We found an overflow vulnerability  in `httpd` :
 
-In  formWrlclientSet  function,it reads in a user-provided parameter `GO`,
+In  formWrlExtraSet  function,it reads in a user-provided parameter `GO`,
 
 <div  align="center"><img src="./img/goform.png" style="zoom:80%;" /></div>
 
-And the variable `s` is passed to the ask_to_reboot function without any length check, which may overflow the stack-based buffer `s_1` by sprintf function. 
+And the variable `v30` is passed to the ask_to_reboot function without any length check, which may overflow the stack-based buffer `s_1` by sprintf function. 
 
 <div  align="center"><img src="./img/function1.png" style="zoom:80%;" /></div>
 
@@ -34,7 +34,7 @@ As a result, by requesting the page, an attacker can easily execute a denial of 
 ## Proof of Concept (PoC)
 
 ```
-POST /goform/WrlclientSet HTTP/1.1
+POST /goform/WrlExtraSet HTTP/1.1
 Host: 192.168.6.2
 X-Requested-With: XMLHttpRequest
 Accept-Language: en-US,en;q=0.9
