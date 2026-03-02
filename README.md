@@ -68,7 +68,11 @@ vul_31 :
 
 vul_32 :
 
+### TOTOLINK A3300R 
 
+vul_39 :
+
+vul_40 :
 
 
 ### Tenda FH1201 
