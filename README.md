@@ -322,4 +322,35 @@ vul_154 :
 
 vul_155 :
 
+### TOTOLINK A7100RU 
+
+vul_156 :
+
+vul_157 :
+
+vul_158 :
+
+vul_159 :
+
+vul_160 :
+
+vul_161 :
+
+vul_162 :
+
+vul_163 :
+
+vul_164 :
+
+vul_165 :
+
+vul_166 :
+
+vul_167 :
+
+vul_168 :
+
+vul_169 :
+
+vul_170 :
 
