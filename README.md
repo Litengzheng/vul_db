@@ -31,6 +31,10 @@ vul_14 :  CVE-2026-
 
 vul_15 :  CVE-2026-
 
+### ???
+
+vul_16 :  
+
 ### Wavlink WL-WN579X3-C  
 
 vul_17 :  CVE-2026-
