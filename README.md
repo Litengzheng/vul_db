@@ -173,13 +173,13 @@ vul_82  :  CVE-2026-3398
 
 vul_83  :  CVE-2026-3399
 
-vul_84
+vul_84  :  CVE-
 
 vul_85  :  CVE-2026-
 
-vul_86
+vul_86  :  CVE-
 
-vul_87
+vul_87  :  CVE-
 
 vul_88
 
