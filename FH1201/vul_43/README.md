@@ -16,7 +16,7 @@ Author:Li Tengzheng
 
 We found an overflow vulnerability  in `httpd` :
 
-In  formWrlclientSet  function,it reads in a user-provided parameter `GO`,
+In  WrlclientSet  function,it reads in a user-provided parameter `GO`,
 
 <div  align="center"><img src="./img/goform.png" style="zoom:80%;" /></div>
 
@@ -54,5 +54,6 @@ GO=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
