@@ -31,9 +31,9 @@ vul_14 :  CVE-2026-
 
 vul_15 :  CVE-2026-
 
-### ???
+### Totolink NR1800x
 
-vul_16 :  
+vul_16 :  CVE-2026-
 
 ### Wavlink WL-WN579X3-C  
 
@@ -52,11 +52,11 @@ vul_21  :  CVE-2026-
 
 vul_22  :  CVE-2026-
 
-vul_23  :  CVE
+vul_23  :  
 
-vul_24  :  CVE
+vul_24  :  
 
-vul_25  :  CVE
+vul_25  :  
 
 vul_26 :
 
@@ -121,15 +121,15 @@ vul_60 :
 
 ### Tenda FH451  
 
-vul_41
+vul_41  ： CVE-2026-
 
-vul_42
+vul_42  :  CVE-2026-
 
-vul_61  :  CVE-2026-
+vul_61  :  CVE-2026-3677
 
-vul_62  :  CVE-2026-
+vul_62  :  CVE-2026-3678
 
-vul_63  :  CVE-2026-
+vul_63  :  CVE-2026-3679
 
 ### Tenda F453 
 
