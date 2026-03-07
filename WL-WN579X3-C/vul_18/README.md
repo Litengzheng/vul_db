@@ -1,5 +1,7 @@
 # WL-WN579X3-C Vulnerability
 
+CVE Number:CVE-2026-3716
+
 Vendor:WavLink
 
 Product: WL-WN579X3-C
@@ -54,6 +56,7 @@ page=sysinit&langChange=0&wl_reddomain=WO&time_zone=UTC-08%3A00&newpass=admin1&s
 ```
 ## outcome
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
 
