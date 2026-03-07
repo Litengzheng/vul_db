@@ -37,9 +37,9 @@ vul_16 :  CVE-2026-
 
 ### Wavlink WL-WN579X3-C  
 
-vul_17 :  CVE-2026-
+vul_17 :  CVE-2026-3715
 
-vul_18 :  CVE-2026-
+vul_18 :  CVE-2026-3716
 
 
 ### D-link Dir 513
@@ -205,14 +205,6 @@ vul_98  :  CVE-2026-
 
 vul_99  :  CVE-2026-
    
-
-### Tenda TX9 
-
-vul_100  :  CVE-2026-
-
-vul_101  :  CVE-2026-
-
-vul_102  :  CVE-2026-
 
 ### ？？？
 
