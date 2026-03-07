@@ -9,15 +9,15 @@ vul_2   :  CVE-2026-
 
 vul_3   :  CVE-2026-
 
-vul_4   :  CVE-
+vul_4   :  CVE-2026-
 
-vul_5   :  CVE-
+vul_5   :  CVE-2026-
 
-vul_6   :  CVE
+vul_6   :  CVE-2026-
 
-vul_7   :  CVE
+vul_7   :  CVE-2026-
 
-vul_8   :  CVE
+vul_8   :  CVE-2026-
 
 ### Wavlink WL-WN579A3 
 
@@ -181,15 +181,15 @@ vul_86  :  CVE-
 
 vul_87  :  CVE-
 
-vul_88
+vul_88  :  CVE-
 
-vul_89
+vul_89  :  CVE-
 
-vul_90
+vul_90  :  CVE-
 
-vul_91
+vul_91  :  CVE-
 
-vul_92
+vul_92  :  CVE-
 
 vul_93
 
