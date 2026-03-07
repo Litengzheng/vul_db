@@ -1,5 +1,7 @@
 # WL-WN579X3-C Vulnerability
 
+CVE Number：CVE-2026-3715
+
 Vendor:WavLink
 
 Product: WL-WN579X3-C
@@ -52,6 +54,7 @@ firewall=singlePortForwardDelete&del_flag=11111111111111111111111111111111111111
 
 ## After
 <div  align="center"><img src="./img/after.png" style="zoom:80%;" /></div>
+
 
 
 
