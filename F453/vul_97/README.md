@@ -1,5 +1,7 @@
 # F453 Vulnerability
 
+CVE Number：CVE-2026-3728
+
 Vendor:Tenda
 
 Product:F453 
@@ -54,5 +56,6 @@ funcname=save_list_data&funcpara1=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
