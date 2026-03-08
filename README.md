@@ -89,8 +89,6 @@ vul_43 :
 
 vul_44 :
 
-vul_45  :  CVE-2026-
-
 ### ？？
 
 vul_46 :
@@ -177,17 +175,17 @@ vul_82  :  CVE-2026-3398
 
 vul_83  :  CVE-2026-3399
 
-vul_84  :  CVE-
+vul_84  :  CVE-2026
 
 vul_85  :  CVE-2026-3726
 
-vul_86  :  CVE-
+vul_86  :  CVE-2026
 
-vul_87  :  CVE-
+vul_87  :  CVE-2026
 
-vul_88  :  CVE-
+vul_88  :  CVE-2026
 
-vul_89  :  CVE-
+vul_89  :  CVE-2026
 
 vul_90  :  CVE-
 
@@ -197,9 +195,7 @@ vul_92  :  CVE-
 
 vul_93
 
-vul_94  :  CVE-2026-
-
-vul_95
+vul_95  :  CVE-2026-
 
 vul_96  :  CVE-2026-3727
 
@@ -412,3 +408,8 @@ vul_197 :
 vul_198 :
 
 vul_199 :
+
+
+
+empty index： vul_11  vul_12  vul_13   vul_33   vul_34   vul_35   vul_36   vul_37   vul_38   vul_45   vul_94     vul_100   vul_101   vul_102   vul_200
+ 
