@@ -1,5 +1,7 @@
 # Dir 513 Vulnerability
 
+CVE Number:CVE-2026-3978
+
 Vendor:Dlink
 
 Product:dir 513 
@@ -53,5 +55,6 @@ wan_connected=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 ## Overcome
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
