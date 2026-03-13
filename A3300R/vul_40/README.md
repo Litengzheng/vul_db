@@ -36,6 +36,21 @@ Finally,the command will be executed by  execv() in CsteSystem
 
 ## Proof of Concept (PoC)
 
+Before starting the proof of concept (POC) verification, execute the following commands in the Ubuntu terminal:
+
+`ip tuntap add dev tap0 mode tap`
+
+`ip addr add 192.168.6.1/24 dev tap0`
+
+`ip link set tap0 up`
+
+`touch  testpoc`
+
+`python3 -m  http.server  7777`
+
+And within the QEMU virtual machine, run: `ifconfig eth0 192.168.6.2/24 up`
+
+
 We set `qos_up_bw` as **\`wget 192.168.6.1:7777/testpoc\`** , and the router will execute it,such as:
 
 ```http
@@ -69,6 +84,7 @@ In Busybox terminal:
 In Ubuntu terminal：
 
 <div  align="center"><img src="./img/poc2.png" style="zoom:80%;" /></div>
+
 
 
 
