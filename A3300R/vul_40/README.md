@@ -10,7 +10,7 @@ Vulnerability: Command Injection
 
 Download:http://totolink.id/home/menu/detail/menu_listtpl/download/id/185/ids/36.html
 
-Author:Lv Hongwei
+Author:Li Tengzheng
 
 
 
@@ -84,6 +84,7 @@ In Busybox terminal:
 In Ubuntu terminal：
 
 <div  align="center"><img src="./img/poc2.png" style="zoom:80%;" /></div>
+
 
 
 
