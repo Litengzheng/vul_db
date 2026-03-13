@@ -1,7 +1,5 @@
 # WL-WN579X3-C Vulnerability
 
-CVE Number：CVE-2026-3715
-
 Vendor:WavLink
 
 Product: WL-WN579X3-C
@@ -66,6 +64,7 @@ firewall=UPNP&UpnpEnabled=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 ## After
 <div  align="center"><img src="./img/after.png" style="zoom:80%;" /></div>
+
 
 
 
