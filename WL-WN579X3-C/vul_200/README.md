@@ -17,9 +17,9 @@ Author：Li Tengzheng
 
 We found an `overflow` vulnerability  in `firewall.cgi` that could be triggered by an attacker through carefully crafted packet requests:
 
-In  ftext function,the router compare the `firewall` parameter.
+In main function,the router compare the `firewall` parameter.
 
-When the value of `firewall` is `singlePortForwardDelete`, the function sub_40139C will be called.
+When the value of `firewall` is `UPNP, the function sub_4019FC will be called.
 
 <div  align="center"><img src="./img/main.png" style="zoom:80%;" /></div>
 
@@ -64,6 +64,7 @@ firewall=UPNP&UpnpEnabled=aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 
 ## After
 <div  align="center"><img src="./img/after.png" style="zoom:80%;" /></div>
+
 
 
 
