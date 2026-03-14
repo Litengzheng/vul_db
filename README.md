@@ -20,9 +20,7 @@ vul_9   :  CVE-2026-4164
 
 ### Wavlink WL-NU516U1 
 
-vul_14 :  CVE-2026-
-
-vul_15 :  CVE-2026-
+vul_14 :  CVE-2026-4166
 
 ### Totolink NR1800x
 
@@ -286,7 +284,7 @@ vul_150  :  CVE-2026-
 
 vul_151  :  CVE
 
-vul_152  :  CVE-2026-
+vul_152  :  CVE-2026-4167
 
 vul_153  :  CVE
 
