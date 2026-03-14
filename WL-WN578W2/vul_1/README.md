@@ -1,5 +1,7 @@
 # WL-WN578W2 Vulnerability
 
+CVE Number：CVE-2026-4164
+
 Vendor:WavLink
 
 Product:WL-WN578W2
