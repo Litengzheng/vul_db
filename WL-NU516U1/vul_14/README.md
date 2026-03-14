@@ -1,5 +1,7 @@
 # WL-NU516U1 Vulnerability
 
+CVE Number:CVE-2026-4166
+
 Vendor:WavLink
 
 Product: WL-NU516U1
