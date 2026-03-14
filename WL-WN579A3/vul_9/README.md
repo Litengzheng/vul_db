@@ -1,5 +1,7 @@
 # WL-WN579A3 Vulnerability
 
+CVE Number：CVE-2026-4163
+
 Vendor:WavLink
 
 Product:WL-WN579A3
