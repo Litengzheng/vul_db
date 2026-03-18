@@ -5,6 +5,10 @@
 
 vul_1   :  CVE-2026-4163
 
+vul_4   :  CVE-2026-
+
+vul_5   :  CVE-2026-
+
 vul_6   :  CVE-2026-
 
 vul_7   :  CVE-2026-
