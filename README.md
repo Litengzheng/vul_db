@@ -5,19 +5,16 @@
 
 vul_1   :  CVE-2026-4163
 
-vul_4   :  CVE-2026-
+vul_4   :  CVE-2026-4543
 
-vul_5   :  CVE-2026-
+vul_6   :  CVE-2026-4544
 
-vul_6   :  CVE-2026-
-
-vul_7   :  CVE-2026-
-
-vul_8   :  CVE-2026-
 
 ### Wavlink WL-WN579A3 
 
 vul_9   :  CVE-2026-4164
+
+vul_16  : 
 
 ### ???
 
@@ -41,9 +38,6 @@ vul_201  :
 
 vul_14 :  CVE-2026-4166
 
-### Totolink NR1800x
-
-vul_16 :  CVE-2026-
 
 ### Wavlink WL-WN579X3-C  
 
@@ -58,7 +52,7 @@ vul_21  :  CVE-2026-3978
 
 vul_23  :  
 
-vul_24  :  
+vul_24  :  CVE-2026-4555  
 
 vul_26 :
 
@@ -167,17 +161,13 @@ vul_82  :  CVE-2026-3398
 
 vul_83  :  CVE-2026-3399
 
-vul_84  :  CVE-2026
-
 vul_85  :  CVE-2026-3726
 
-vul_86  :  CVE-2026
+vul_86  :  CVE-2026-4551
 
-vul_87  :  CVE-2026
+vul_87  :  CVE-2026-4552
 
-vul_88  :  CVE-2026
-
-vul_89  :  CVE-2026
+vul_88  :  CVE-2026-4553
 
 vul_90  :  CVE-
 
@@ -187,7 +177,7 @@ vul_92  :  CVE-
 
 vul_93
 
-vul_95  :  CVE-2026-
+vul_95  :  CVE-2026-4554
 
 vul_96  :  CVE-2026-3727
 
@@ -215,11 +205,6 @@ vul_108
 
 vul_109
 
-vul_110
-
-vul_111
-
-vul_112
 
 ###  ？？？
 
