@@ -115,9 +115,9 @@ vul_60 :
 
 ### Tenda FH451  
 
-vul_41  ： CVE-2026-
+vul_41  ： CVE-2026-4534
 
-vul_42  :  CVE-2026-
+vul_42  :  CVE-2026-4535
 
 vul_61  :  CVE-2026-3677
 
