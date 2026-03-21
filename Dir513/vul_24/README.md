@@ -16,6 +16,8 @@ Author:Li Tengzheng
 
 ## Descriptions
 
+CVE Number:CVE-2026-4555
+
 We use qemu-mips to simulate the dir513 firmware.
 
 <div  align="center"><img src="./img/dlink.png" style="zoom:80%;" /></div>
