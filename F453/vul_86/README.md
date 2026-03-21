@@ -1,5 +1,7 @@
 # F453 Vulnerability
 
+CVE Number:CVE-2026-4551
+
 Vendor:Tenda
 
 Product:F453 
