@@ -1,5 +1,7 @@
 # FH451 Vulnerability
 
+CVE Number:CVE-2026-4534
+
 Vendor:Tenda
 
 Product:FH451 
