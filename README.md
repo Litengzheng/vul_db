@@ -16,23 +16,23 @@ vul_9   :  CVE-2026-4164
 
 vul_16  : 
 
-### ???
+### Belkin F9K1015
 
-vul_2   :  
+vul_2   :  CVE-  
  
-vul_3   :  
+vul_3   :  CVE-  
 
-vul_5   : 
+vul_5   :  CVE- 
 
-vul_7  : 
+vul_7  :   CVE- 
 
-vul_10  :  
+vul_10 :   CVE-  
 
-vul_11  :  
+vul_11 :   CVE-
 
-vul_12  : 
+vul_12  :  CVE- 
 
-vul_13  : 
+vul_13  :  CVE- 
 
 
 
@@ -290,11 +290,11 @@ vul_151  :  CVE-2026-4566
 
 vul_152  :  CVE-2026-4167
 
-vul_153  :  CVE
+vul_153  :  CVE-
 
-vul_154 :
+vul_154 :   CVE-
 
-vul_155 :
+vul_155 :   CVE-
 
 ### ？？？
 
