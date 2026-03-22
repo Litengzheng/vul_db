@@ -1,5 +1,7 @@
 # Belkin F9K1122 Vulnerability
 
+CVE Number: CVE-2026-4566
+
 Vendor:Belkin
 
 Product:F9K1122 
