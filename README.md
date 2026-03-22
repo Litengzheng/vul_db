@@ -18,9 +18,13 @@ vul_16  :
 
 ### ???
 
-vul_2  :  
+vul_2   :  
+ 
+vul_3   :  
 
-vul_3  :  
+vul_5   : 
+
+vul_7  : 
 
 vul_10  :  
 
@@ -30,14 +34,18 @@ vul_12  :
 
 vul_13  : 
 
-vul_15  : 
 
-vul_201  : 
+
+
 
 ### Wavlink WL-NU516U1 
 
 vul_14 :  CVE-2026-4166
 
+
+### ???
+
+vul_15   :  
 
 ### Wavlink WL-WN579X3-C  
 
