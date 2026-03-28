@@ -83,6 +83,8 @@ vul_43 :
 
 vul_44 :
 
+vul_45 :
+
 ### Tenda CH22
 
 vul_46 :
