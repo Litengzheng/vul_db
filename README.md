@@ -5,14 +5,26 @@
 
 vul_1   :  CVE-2026-4163
 
+vul_2   :
+
+vul_3   :
+
 vul_4   :  CVE-2026-4543
 
+vul_5   :
+
 vul_6   :  CVE-2026-4544
+
+vul_7   :
+
+vul_8   :
 
 
 ### Wavlink WL-WN579A3 
 
 vul_9   :  CVE-2026-4164
+
+vul_10  :
 
 vul_16  : 
 
@@ -38,6 +50,8 @@ vul_13  :  CVE-
 ### Wavlink WL-NU516U1 
 
 vul_14 :  CVE-2026-4166
+
+vul_15 :
 
 
 
