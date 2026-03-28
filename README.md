@@ -35,17 +35,11 @@ vul_12  :  CVE-
 vul_13  :  CVE- 
 
 
-
-
-
 ### Wavlink WL-NU516U1 
 
 vul_14 :  CVE-2026-4166
 
 
-### ???
-
-vul_15   :  
 
 ### Wavlink WL-WN579X3-C  
 
@@ -67,14 +61,6 @@ vul_26 :
 vul_29 :
 
 vul_30 :
-
-（）（）（）（）
-
-### ？
-
-vul_39 :
-
-vul_40 :
 
 
 ### Tenda FH1201 
@@ -206,82 +192,6 @@ vul_108
 vul_109
 
 
-###  ？？？
-
-vul_113
-
-vul_114
-
-vul_115
-
-vul_116
-
-vul_117
-
-vul_118
-
-vul_119
-
-vul_120
-
-vul_121
-
-vul_122
-
-vul_123
-
-vul_124
-
-vul_125
-
-vul_126
-
-vul_127
-
-vul_128
-
-vul_129
-
-vul_130
-
-vul_131
-
-vul_132
-
-vul_133
-
-vul_134
-
-vul_135
-
-vul_136
-
-vul_137
-
-vul_138
-
-vul_139
-
-vul_140
-
-vul_141
-
-vul_142
-
-vul_143
-
-vul_144
-
-vul_145
-
-vul_146
-
-vul_147
-
-vul_148
-
-vul_149
-
 ### Belkin F9K1122 
 
 vul_80   :  CVE-2026-
@@ -296,99 +206,4 @@ vul_154 :   CVE-
 
 vul_155 :   CVE-
 
-### ？？？
 
-vul_156 :
-
-vul_157 :
-
-vul_158 :
-
-vul_159 :
-
-vul_160 :
-
-vul_161 :
-
-vul_162 :
-
-vul_163 :
-
-vul_164 :
-
-vul_165 :
-
-vul_166 :
-
-vul_167 :
-
-vul_168 :
-
-vul_169 :
-
-vul_170 :
-
-vul_171 :
-
-vul_172 :
-
-vul_173 :
-
-vul_174 :
-
-vul_175 :
-
-vul_176 :
-
-vul_177 :
-
-vul_178 :
-
-vul_179 :
-
-vul_180 :
-
-vul_181 :
-
-vul_182 :
-
-vul_183 :
-
-vul_184 :
-
-vul_185 :
-
-vul_186 :
-
-vul_187 :
-
-vul_188 :
-
-vul_189 :
-
-vul_190 :
-
-vul_191 :
-
-vul_192 :
-
-vul_193 :
-
-vul_194 :
-
-vul_195 :
-
-vul_196 :
-
-vul_197 :
-
-vul_198 :
-
-vul_199 :
-
-
-
-
-
-empty index： vul_11  vul_12  vul_13   vul_33   vul_34   vul_35   vul_36   vul_37   vul_38   vul_45   vul_94     vul_100   vul_101   vul_102   vul_200
- 
