@@ -161,6 +161,8 @@ vul_82  :  CVE-2026-3398
 
 vul_83  :  CVE-2026-3399
 
+vul_84  :  CVE-
+
 vul_85  :  CVE-2026-3726
 
 vul_86  :  CVE-2026-4551
@@ -169,6 +171,8 @@ vul_87  :  CVE-2026-4552
 
 vul_88  :  CVE-2026-4553
 
+vul_89  :  
+
 vul_90  :  CVE-
 
 vul_91  :  CVE-
@@ -176,6 +180,8 @@ vul_91  :  CVE-
 vul_92  :  CVE-
 
 vul_93
+
+vul_94
 
 vul_95  :  CVE-2026-4554
 
@@ -204,6 +210,8 @@ vul_107
 vul_108
 
 vul_109
+
+vul_110
 
 
 ### Belkin F9K1122 
