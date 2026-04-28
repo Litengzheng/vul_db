@@ -1,4 +1,4 @@
-# A3300R Vulnerability
+# A3300R Vulnerability （CVE-2026-5101）
 
 Vendor:TOTOLINK
 
