@@ -1,4 +1,4 @@
-# WL-WN579X3-C Vulnerability
+# WL-WN579X3-C Vulnerability（CVE-2026-5004）
 
 Vendor:WavLink
 
