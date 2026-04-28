@@ -1,4 +1,4 @@
-# WL-WN579A3 Vulnerability
+# WL-WN579A3 Vulnerability（CVE-2026-6559）
 
 Vendor:WavLink
 
