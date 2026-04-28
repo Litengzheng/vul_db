@@ -1,4 +1,4 @@
-# Belkin F9K1122 Vulnerability
+# Belkin F9K1122 Vulnerability（CVE-2026-5042）
 
 Vendor:Belkin
 
