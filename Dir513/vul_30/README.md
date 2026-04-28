@@ -1,4 +1,4 @@
-# Dir 513 Vulnerability
+# Dir 513 Vulnerability（CVE-2026-5024）
 
 Vendor:Dlink
 
